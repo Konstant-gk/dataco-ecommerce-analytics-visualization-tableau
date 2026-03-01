@@ -1,103 +1,198 @@
-# Dataco E-Commerce Data Visualization Dashboard
+# 📊 Dataco E-Commerce — Sales Analytics Dashboard (Tableau)
 
-A comprehensive Tableau data visualization project that transforms raw e-commerce transaction data into actionable business insights through interactive dashboards and advanced analytics. This project demonstrates proficiency in data visualization, business intelligence, and dashboard design principles.
+![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)
+![Tableau](https://img.shields.io/badge/Tableau-Desktop%20%26%20Public-orange?style=flat-square)
+![Data Viz](https://img.shields.io/badge/data%20viz-E--commerce-green?style=flat-square)
 
-## Project Overview
+> Interactive Tableau dashboards that transform Dataco e-commerce transaction data into actionable business insights—sales, customers, products, and geography.
 
-This project presents a complete data visualization solution for Dataco, an e-commerce company, analyzing sales performance, customer behavior, and product trends across multiple dimensions. The dashboard provides stakeholders with real-time insights into revenue metrics, geographic performance, product category analysis, and temporal trends, enabling data-driven decision-making at both strategic and operational levels.
+[Overview](#-overview) · [Dashboards](#-dashboards) · [Project Structure](#-project-structure) · [Getting Started](#-getting-started) · [Documentation](#-documentation)
 
-The visualization leverages Tableau's advanced features including calculated fields, level-of-detail (LOD) expressions, parameter controls, and interactive filtering to create a dynamic, user-friendly analytical experience. The dashboard design follows best practices for data visualization, ensuring clarity, accessibility, and actionable insights for business users across different organizational levels.
+---
 
-## Objectives
+## 📋 Overview
 
-The primary objectives of this project were to:
+### 🎯 Problem Statement
 
-- **Create Comprehensive Business Dashboards**: Develop interactive visualizations that provide a 360-degree view of e-commerce performance, covering sales, customers, products, and geographic distribution.
+> E-commerce teams need a 360° view of sales performance, customer behavior, and product trends. Static reports don't support drill-down, geographic exploration, or self-serve analysis.
 
-- **Enable Data-Driven Decision Making**: Transform raw transaction data into clear, actionable insights that help business stakeholders identify opportunities, trends, and areas requiring attention.
+### 💡 Solution
 
-- **Demonstrate Advanced Tableau Skills**: Showcase proficiency with advanced Tableau features including calculated fields, LOD expressions, table calculations, parameters, and dashboard actions.
+A **comprehensive Tableau visualization project** that:
 
-- **Implement Best Practices in Data Visualization**: Apply principles of effective data visualization including appropriate chart selection, color theory, layout design, and user experience optimization.
+- Transforms raw e-commerce transaction data into interactive dashboards
+- Provides revenue, profit, sales trends, customer segmentation, and geographic performance
+- Uses **calculated fields**, **LOD expressions**, **parameters**, and **dashboard actions**
+- Follows data viz best practices for clarity, accessibility, and actionable insights
 
-- **Provide Interactive Analytics**: Create dashboards that allow users to explore data dynamically through filters, parameters, and drill-down capabilities without requiring technical knowledge.
+### ✨ Key Features
 
-- **Analyze Key Business Metrics**: Focus on critical e-commerce KPIs including revenue, profit margins, sales trends, customer segmentation, and product performance across multiple time periods and dimensions.
+| Feature | Description |
+|---------|-------------|
+| 📈 **Sales performance** | Revenue, profit margins, YoY growth, sales trends by period and category |
+| 🌍 **Geographic analysis** | Maps by region, state, city; drill-down with color and size encoding |
+| 📦 **Product insights** | Category/subcategory performance; treemaps, heat maps, top products |
+| 👥 **Customer analytics** | Segmentation, acquisition, retention, lifetime value |
+| 📅 **Temporal analysis** | Day/week/month/quarter/year; seasonal patterns and period comparisons |
+| 🔧 **Interactive filters** | Date ranges, categories, regions, parameters, cross-filtering |
 
-## Technology Stack
+### 👥 Target Audience
 
-### Data Visualization & Business Intelligence
-- **Tableau Desktop**: Primary tool for dashboard development and data visualization
-- **Tableau Public**: Platform for publishing and sharing the interactive dashboard
-- **Tableau Calculated Fields**: Advanced calculations for custom metrics and KPIs
-- **Tableau LOD Expressions**: Level-of-detail calculations for complex aggregations
+- **Recruiters** — Evidence of Tableau, LOD, calculated fields, and dashboard design
+- **Business analysts** — Sales and customer insights
+- **BI / data engineers** — Clean structure and viz best practices
 
-### Design & User Experience
-- **Dashboard Design Principles**: Layout optimization and visual hierarchy
-- **Color Theory**: Strategic use of color for data communication
-- **Interactive Elements**: Filters, parameters, and dashboard actions
+---
 
-## Dashboard Features
+## 📊 Dashboards
 
-### Sales Performance Analysis
-The dashboard provides comprehensive sales analytics including total revenue, profit margins, and sales trends over time. Interactive visualizations allow users to analyze performance by different time periods, product categories, and geographic regions. The implementation includes calculated fields for year-over-year comparisons, growth rates, and performance indicators.
+### 📈 Sales Performance Analysis
 
-### Geographic Analysis
-Geographic visualizations map sales performance across different regions, states, and cities, enabling identification of high-performing markets and opportunities for expansion. The maps are interactive, allowing users to drill down from country to state to city levels, with color coding and size indicators representing sales volume and performance metrics.
+Revenue, profit margins, and sales trends with interactive filters. YoY comparisons, growth rates, and performance by category and region.
 
-### Product Category Insights
-Product performance analysis breaks down sales and profitability by product category and subcategory. Visualizations include bar charts, treemaps, and heat maps that highlight top-performing products, identify underperforming categories, and reveal opportunities for product mix optimization.
+### 🌍 Geographic Analysis
 
-### Customer Analytics
-Customer segmentation and analysis provide insights into customer behavior, purchase patterns, and lifetime value. The dashboard includes metrics for customer acquisition, retention, and segmentation by various demographic and behavioral dimensions.
+Interactive maps: country → state → city drill-down. Color and size encode sales volume and performance metrics.
 
-### Temporal Trend Analysis
-Time-series visualizations track sales trends, seasonal patterns, and performance over different time periods. Users can analyze trends by day, week, month, quarter, or year, with the ability to compare periods and identify patterns and anomalies.
+### 📦 Product Category Insights
 
-### Interactive Filtering and Parameters
-The dashboard includes multiple interactive elements including filters for date ranges, product categories, regions, and customer segments. Parameters allow users to customize views and calculations, such as selecting comparison periods or adjusting metric calculations. Dashboard actions enable cross-filtering between visualizations, creating a cohesive analytical experience.
+Bar charts, treemaps, and heat maps for category/subcategory performance. Top products, underperformers, and product mix optimization.
 
-## Key Metrics and KPIs
+### 🖼️ Dashboard Preview
 
-The dashboard tracks and visualizes critical e-commerce metrics including:
+![E-Commerce Sales Dashboard](assets/images/_ecommerce_sales_dashboard.png)
 
-- **Revenue Metrics**: Total sales, revenue by period, revenue growth rates, and revenue by category
-- **Profitability**: Profit margins, total profit, profit by product category, and profit trends
-- **Sales Performance**: Units sold, average order value, sales by region, and sales trends
-- **Customer Metrics**: Number of customers, customer acquisition, customer lifetime value, and customer segmentation
-- **Product Performance**: Top-selling products, product category performance, and product profitability
-- **Geographic Performance**: Sales by region, state, and city with comparative analysis
-- **Temporal Analysis**: Year-over-year comparisons, monthly trends, seasonal patterns, and period-over-period growth
+---
 
-## Advanced Features Implemented
+## 🛠️ Tech Stack & Advanced Features
 
-### Calculated Fields
-The project includes numerous calculated fields for custom metrics, including year-over-year growth calculations, profit margin percentages, conditional formatting logic, and complex aggregations that combine multiple data dimensions.
+### Technology
 
-### Level-of-Detail (LOD) Expressions
-LOD expressions are used to create calculations that operate at different levels of detail than the visualization's default aggregation level. These include fixed calculations for overall metrics, include calculations for comparative analysis, and exclude calculations for filtered aggregations.
+| Component | Technology |
+|-----------|------------|
+| **Visualization** | Tableau Desktop |
+| **Publishing** | Tableau Public |
+| **Data format** | CSV |
+| **Calculations** | Calculated fields, LOD expressions, table calculations |
 
-### Table Calculations
-Table calculations enable advanced analytics including running totals, percent of total calculations, moving averages, and rank calculations that provide context and comparative insights within visualizations.
+### 🔧 Advanced Tableau Features
 
-### Parameters
-Parameters allow users to customize dashboard views and calculations dynamically. These include date range selectors, metric selectors, and comparison period parameters that enhance the dashboard's flexibility and user experience.
+| Feature | Use Case |
+|---------|----------|
+| **Calculated fields** | YoY growth, profit margins, conditional formatting |
+| **LOD expressions** | Fixed/Include/Exclude for complex aggregations |
+| **Table calculations** | Running totals, % of total, moving averages, rank |
+| **Parameters** | Date range, metric selectors, comparison periods |
+| **Dashboard actions** | Cross-filtering, highlighting, sheet navigation |
 
-### Dashboard Actions
-Interactive dashboard actions enable cross-filtering, highlighting, and navigation between sheets, creating a seamless analytical experience where users can explore data relationships across different visualizations.
+---
 
-## Results Summary
+## 📁 Project Structure
 
-The completed dashboard successfully transforms raw e-commerce data into actionable business intelligence, providing stakeholders with comprehensive insights into sales performance, customer behavior, and product trends. The interactive nature of the dashboard enables users to explore data dynamically, answer ad-hoc questions, and identify opportunities without requiring technical expertise or additional data analysis tools.
+```
+dataco-ecommerce-analytics-visualization-tableau/
+├── data/
+│   └── raw/
+│       └── dataco_db.csv              # E-commerce transaction data
+├── assets/
+│   ├── dashboards/
+│   │   └── ecommerce_sales_dashboard.twb
+│   └── images/
+│       └── _ecommerce_sales_dashboard.png
+├── README.md
+└── .gitignore
+```
 
-The visualization demonstrates proficiency in Tableau's advanced features and best practices in data visualization design. The dashboard is published on Tableau Public, making it accessible to a wide audience and serving as a portfolio piece that showcases data visualization and business intelligence capabilities.
+### 📂 Folder Descriptions
 
-Key achievements include the successful implementation of complex calculations, creation of intuitive and visually appealing dashboards, and the ability to communicate business insights effectively through data visualization. The project demonstrates the ability to work with real-world business data, understand business requirements, and translate data into meaningful visual stories that drive decision-making.
+| Folder | Purpose |
+|--------|---------|
+| `data/raw/` | Source dataset (Dataco e-commerce transactions) |
+| `assets/dashboards/` | Tableau workbook (.twb) |
+| `assets/images/` | Dashboard preview image |
 
-## Dashboard Access
+---
 
-The interactive dashboard is available on Tableau Public:
+## 🚀 Getting Started
 
-[Dataco E-Commerce Visualization Dashboard](https://public.tableau.com/app/profile/konstantinos.gkaravelos/viz/Dataco_Ecommerce_Visualization/Dashboard1)
+### Prerequisites
 
+- **Tableau Desktop** or **Tableau Public**
+- Data file: `data/raw/dataco_db.csv`
 
+### Quick Start
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/Konstant-gk/dataco-ecommerce-analytics-visualization-tableau.git
+   cd dataco-ecommerce-analytics-visualization-tableau
+   ```
+
+2. **Open the workbook**
+   - Open `assets/dashboards/ecommerce_sales_dashboard.twb` in Tableau
+   - If prompted, point the data source to `data/raw/dataco_db.csv`
+
+3. **Refresh data** (optional)
+   - Data → [data source] → Refresh
+
+### 🌐 Dashboard Access
+
+The interactive dashboard is published on **Tableau Public**:
+
+**[Dataco E-Commerce Visualization Dashboard](https://public.tableau.com/)** — *add your Tableau Public link here*
+
+---
+
+## 📈 Key Metrics & KPIs
+
+| Metric | Description |
+|--------|-------------|
+| **Revenue** | Total sales, revenue by period, YoY growth |
+| **Profitability** | Profit margins, profit by category, trends |
+| **Sales** | Units sold, AOV, sales by region |
+| **Customers** | Count, acquisition, CLV, segmentation |
+| **Products** | Top sellers, category performance, profitability |
+| **Geography** | Sales by region, state, city; comparisons |
+| **Time** | YoY, monthly trends, seasonal patterns |
+
+---
+
+## 📚 Documentation
+
+| Resource | Description |
+|----------|-------------|
+| [assets/images/](assets/images/) | Dashboard preview image |
+| [assets/dashboards/](assets/dashboards/) | Tableau workbook |
+
+---
+
+## ✅ What This Project Demonstrates
+
+| Competency | How It's Shown |
+|------------|----------------|
+| **Tableau proficiency** | Calculated fields, LOD, parameters, dashboard actions |
+| **Data visualization** | Chart selection, color, layout, UX |
+| **E-commerce analytics** | Revenue, profit, customer, product, geo analysis |
+| **Professional structure** | `data/`, `assets/` layout; clear README |
+| **Portfolio readiness** | Published on Tableau Public; scannable docs |
+
+---
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a branch (`feat/`, `fix/`, `docs/`)
+3. Open a Pull Request
+
+---
+
+## 📄 License
+
+MIT — see [LICENSE](LICENSE) if present.
+
+---
+
+## 📬 Contact
+
+- **Repository:** [Konstant-gk/dataco-ecommerce-analytics-visualization-tableau](https://github.com/Konstant-gk/dataco-ecommerce-analytics-visualization-tableau)
+- **Issues:** [GitHub Issues](https://github.com/Konstant-gk/dataco-ecommerce-analytics-visualization-tableau/issues)
